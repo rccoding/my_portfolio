@@ -202,3 +202,34 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not visible until it is animated */
+  border-right: .15em solid orange; /* The cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: typewriter 3.5s steps(40, end) 1s forwards, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 80%; }
+}
+
+@keyframes blinkTextCursor {
+  from { border-right-color: #915eff; }
+  to { border-right-color: transparent; }
+}
+.circular-div {
+  width: 350px; /* Set the size of the circular div */
+  height: 350px;
+  border-radius: 50%;
+  /* overflow: hidde; Ensures no part of the image spills outside the circular boundary */
+  /* position: relative; */
+  box-shadow: 
+    0 0 20px #08f, /* Outer blue glow */
+    0 0 40px #08f, /* Middle blue glow */
+    0 0 80px #08f; /* Inner blue glow */
+}
+
+.circular-div:hover {
+  transform: scale(1.1); /* Scale up on hover for interactive effect */
+}

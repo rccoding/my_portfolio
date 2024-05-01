@@ -24,9 +24,14 @@ import {
     shopify,
     carrent,
     jobit,
+    python,
+    next,
+    profile,
     tripguide,
     threejs,
   } from "../assets";
+  import otl from '../assets/ot.png'
+  import arbi from '../assets/ar.png'
   
   export const navLinks = [
     {
@@ -49,7 +54,7 @@ import {
       icon: web,
     },
     {
-      title: "React js Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -84,6 +89,22 @@ import {
       icon: nodejs,
     },
     {
+      name: "Nextjs",
+      icon:next,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Typescript",
+      icon: typescript,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
@@ -101,10 +122,11 @@ import {
       iconBg: "#383E56",
       date: "August 2022-present",
       points: [
-        "Effectively managed the front-end and back-end stack  of website developed in internship to deliver new features requested by client  during weekly standup.",
-        " Assessed the most appropriate technical solutions priortizing Quality, Performance and Responsiveness for the application and migrated it to AWS.",
-        " Developing a web 3.0 along with my team ,a website which incorporates concepts such as decentralization, blockchain technologies.",
-        " Collaborated with fellow developers to devise a MongoDB-based database schema and Node.js-driven API architecture, while leveraging tools such as Cloudinary to optimize data rendering.",
+        "Developed a Web3-based website using Next.js and Tailwind CSS, focusing on integrating blockchain technology to offer a modern, responsive user experience",
+        "Engineered an innovative LLM tuning platform, leveraging advanced algorithms and AI models. This resulted in a 40% optimization in system performance, enhancing user satisfaction and ensuring robust system architecture and reliability for 24/7 operations",
+        "Partnered with cloud developers to transition the platform to AWS, leading to significant improvements in deployment architecture, which increased cost efficiency, speed, and performance by 10-15 times",
+        "Successfully managed both the front-end and back-end stack of a website during my internship, consistently delivering project deliverables on set timelines as part of the software development lifecycle.",
+        "Collaborated with fellow developers to design a MongoDB-based database schema and a Node.js-driven API architecture for an NFT platform, incorporating Restful web services and optimizing data rendering with Cloudinary."
       ],
     },
     {
@@ -140,6 +162,58 @@ import {
   
   const projects = [
     {
+      name: "ArbiusData.io",
+      description:
+      "Arbius.io is an online platform that specializes in providing statistics and analytics services, ideal for businesses or individual users. The name itself suggests a robust focus on data analysis and statistical reporting. This platform offers essential tools that help users track performance, understand data trends, and make informed decisions based on comprehensive data insights. ",
+        
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "recoil",
+          color: "green-text-gradient",
+        },
+        {
+          name: "blockchain",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ai",
+          color: "green-text-gradient",
+        },
+      ],
+      image: arbi,
+      source_code_link: "https://arbiusdata.io/",
+    },
+    {
+      name: "Opentune",
+      description:
+      "The newly introduced LLM Tuning Platform is set to revolutionize the AI industry by offering real-time interaction with AI, allowing users to set specific instructions, customize tags, and establish rules for more accurate results. It also offers the ability to customize different AI models according to specific domains. ",
+        
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "LLM",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ai",
+          color: "green-text-gradient",
+        },
+      ],
+      image: otl,
+      source_code_link: "https://opentune.io/",
+    },
+    {
       name: "Chang Chauy",
       description:
         "Web-based platform that allows users to search, book, and manage services for various constructions and home needs.",
@@ -154,7 +228,7 @@ import {
         },
       ],
       image: CC,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://changchuay.com/",
     },
     {
       name: "Ghost club",
@@ -171,7 +245,7 @@ import {
         },
       ],
       image: GC,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://ghostclub.io/",
     },
     {
       name: "weboasis website",
@@ -188,8 +262,8 @@ import {
         },
       ],
       image: weboasis,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://weboasis.io/",
     },
   ];
   
-  export { services, technologies, experiences,  projects };
+  export { services, technologies, experiences,  projects ,profile};

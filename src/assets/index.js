@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
+import profile from './mobile.png'
+import python from './python.png'
+import next from './nextjs.png'
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -40,6 +43,8 @@ export {
   web,
   github,
   menu,
+  python,
+  next,
   close,
   css,
   docker,
@@ -60,6 +65,7 @@ export {
   tesla,
   carrent,
   CC,
+  profile,
   GC,
   weboasis,
   jobit,

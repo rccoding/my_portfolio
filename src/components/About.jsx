@@ -42,10 +42,12 @@ const About = () => {
     </motion.div>
     <motion.p 
     variants={fadeIn("","",0.1,1)}
-    className="m-4 text-secondary text-[17px] max-w-3xl leading-[30px] ">
-      I am a skilled software developer skilled with  expertise
-      in HTML,CSS ,javascript  and experience in 
-      frameworks like react , django ,nodejs etc
+    className="my-4 text-secondary text-[17px] max-w-3xl leading-[30px] ">
+      As a Software Developer specializing in web applications and blockchain integration,
+       I have developed robust solutions using Next.js, React, Tailwind CSS, and advanced AI models.
+        My technical design expertise and passion for technology have enabled me to successfully manage complete
+         software lifecycles, from concept through high-quality deployment architectures. I have a strong
+       background in UX and interface optimization, ensuring scalable and secure applications.
       I am always up for challenges and learning new technologies
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
