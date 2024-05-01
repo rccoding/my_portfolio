@@ -14,7 +14,6 @@ export {
   Tech,
   Experience,
   Works,
-  Feedbacks,
   Contact,
   EarthCanvas, 
   BallCanvas, 
