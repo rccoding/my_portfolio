@@ -162,9 +162,9 @@ import {
   
   const projects = [
     {
-      name: "ArbiusData.io",
+      name: "Aalytics services",
       description:
-      "Arbius.io is an online platform that specializes in providing statistics and analytics services, ideal for businesses or individual users. The name itself suggests a robust focus on data analysis and statistical reporting. This platform offers essential tools that help users track performance, understand data trends, and make informed decisions based on comprehensive data insights. ",
+      "an online platform that specializes in providing statistics and analytics services, ideal for businesses or individual users. The name itself suggests a robust focus on data analysis and statistical reporting. This platform offers essential tools that help users track performance, understand data trends, and make informed decisions based on comprehensive data insights. ",
         
       tags: [
         {
@@ -188,7 +188,7 @@ import {
       source_code_link: "https://arbiusdata.io/",
     },
     {
-      name: "Opentune",
+      name: "LLM platform",
       description:
       "The newly introduced LLM Tuning Platform is set to revolutionize the AI industry by offering real-time interaction with AI, allowing users to set specific instructions, customize tags, and establish rules for more accurate results. It also offers the ability to customize different AI models according to specific domains. ",
         
@@ -214,7 +214,7 @@ import {
       source_code_link: "https://opentune.io/",
     },
     {
-      name: "Chang Chauy",
+      name: "Service managing website",
       description:
         "Web-based platform that allows users to search, book, and manage services for various constructions and home needs.",
       tags: [
@@ -231,7 +231,7 @@ import {
       source_code_link: "https://changchuay.com/",
     },
     {
-      name: "Ghost club",
+      name: "Web 3 art",
       description:
         "Web application that enables users to create and upload web-3 art.",
       tags: [
@@ -248,7 +248,7 @@ import {
       source_code_link: "https://ghostclub.io/",
     },
     {
-      name: "weboasis website",
+      name: "Company website",
       description:
         "A portfolio for our company showcasing our projects ",
       tags: [
