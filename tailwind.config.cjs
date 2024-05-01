@@ -17,9 +17,24 @@ module.exports = {
       },
       screens: {
         xs: "450px",
+        md:'750px'
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+      },
+      keyframes: {
+        typewriter: {
+          'from': { width: '0' },
+          'to': { width: '100%' }
+        },
+        blinkCursor: {
+          'from, to': { borderColor: 'transparent' },
+          '50%': { borderColor: 'black' }
+        }
+      },
+      animation: {
+        typewriter: 'typewriter 4s steps(40, end) 1s 1 normal both',
+        blinkCursor: 'blinkCursor 500ms steps(40) infinite'
       },
     },
   },

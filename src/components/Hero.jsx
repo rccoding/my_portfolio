@@ -22,14 +22,13 @@ const Hero = () => {
               <h1 className={`${styles.heroHeadText}`}>Hi, I'm &nbsp;
               <span className="text-[#915eff]">Rishika</span> </h1>
               <p className={`${styles.heroSubText} mt-2 text-white-100 w-[70%] text-[22px]`}>Crafting seamless experiences  with cutting-edge front-end and robust back-end technologies</p>
-                {/* <h1 class="text-4xl font-bold overflow-hidden border-r-2 border-gray-900">
-                Hello, world!
-                </h1> */}
         </div>
-        <div class="circular-div">
+       <div className="xs:hidden md:block ">
+       <div className="circular-div ">
                   <img className="rounded-full h-full w-full object-cover block" src={rishika}/>
                 </div>
         </div>
+       </div>
                
       </div>
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">

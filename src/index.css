@@ -233,3 +233,10 @@
 .circular-div:hover {
   transform: scale(1.1); /* Scale up on hover for interactive effect */
 }
+@media  (max-width:420px) {
+  .circular-div{
+    display:none !important
+  }
+}
+
+
