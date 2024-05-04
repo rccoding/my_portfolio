@@ -17,11 +17,11 @@ const Hero = () => {
             
        
         </div>
-        <div className="flex flex-row gap-[120px]">
-        <div class="typewriter w-[60%]">
+        <div className="flex   xs:gap-0 md:gap-[120px]">
+        <div class="typewriter xs:w-[100%] md:w-[60%]">
               <h1 className={`${styles.heroHeadText}`}>Hi, I'm &nbsp;
               <span className="text-[#915eff]">Rishika</span> </h1>
-              <p className={`${styles.heroSubText} mt-2 text-white-100 w-[70%] text-[22px]`}>Crafting seamless experiences  with cutting-edge front-end and robust back-end technologies</p>
+              <p className={`${styles.heroSubText} mt-2 text-white-100 xs:w-[100%] md:w-[70%] xs:text-[18px] md:text-[22px]`}>Crafting seamless experiences  with cutting-edge front-end and robust back-end technologies</p>
         </div>
        <div className="xs:hidden md:block ">
        <div className="circular-div ">
